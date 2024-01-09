@@ -9,7 +9,7 @@ devDependencies:
     specifier: ^2.27.1
     version: 2.27.1
   '@types/node':
-    specifier: ^20.10.6
+    specifier: ^20.10.8
     version: 20.10.8
   tsup:
     specifier: ^8.0.1
