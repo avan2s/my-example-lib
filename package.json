@@ -1,6 +1,6 @@
 {
   "name": "avh-my-example-lib",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "This project demonstrates an example npm library with an hello world function",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
