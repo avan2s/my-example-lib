@@ -61,3 +61,4 @@ Here are additional helpful docs for this project:
 - https://github.com/changesets/changesets/blob/main/docs/intro-to-using-changesets.md
 - https://github.com/changesets/action?tab=readme-ov-file#custom-publishing
 - https://stackoverflow.com/questions/72376229/github-actions-is-not-permitted-to-create-or-approve-pull-requests-createpullre
+- https://docs.npmjs.com/creating-and-publishing-scoped-public-packages
