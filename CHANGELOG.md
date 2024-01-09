@@ -1,5 +1,11 @@
 # @avh/my-example-lib
 
+## 0.0.2
+
+### Patch Changes
+
+- 5c560c7: something new
+
 ## 0.0.1
 
 ### Patch Changes
