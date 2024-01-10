@@ -73,3 +73,4 @@ Here are additional helpful docs for this project:
 - https://stackoverflow.com/questions/72376229/github-actions-is-not-permitted-to-create-or-approve-pull-requests-createpullre
 - https://docs.npmjs.com/creating-and-publishing-scoped-public-packages
 - https://www.youtube.com/watch?v=aKTSC4D1GL8&list=PLEBCKcboIbaC7NeJ_C8kXjafGoI6_RAQI&index=30&t=6028s
+- https://prettier.io/docs/en/install

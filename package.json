@@ -13,7 +13,8 @@
     "test:watch": "vitest --watch",
     "ci": "pnpm run lint && pnpm run test && pnpm run build",
     "release": "pnpm run lint && pnpm run test && pnpm run build && changeset publish",
-    "format:check": "pnpm prettier . --check"
+    "format:check": "pnpm prettier . --check",
+    "format": "pnpm prettier . --write"
   },
   "keywords": [
     "example",
@@ -29,6 +30,8 @@
   "devDependencies": {
     "@changesets/cli": "^2.27.1",
     "@types/node": "^20.10.8",
+    "@typescript-eslint/eslint-plugin": "^6.18.1",
+    "@typescript-eslint/parser": "^6.18.1",
     "eslint": "^8.56.0",
     "prettier": "3.1.1",
     "tsup": "^8.0.1",
