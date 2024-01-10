@@ -1,5 +1,11 @@
 # @avh/my-example-lib
 
+## 0.0.4
+
+### Patch Changes
+
+- add eslint and prettier
+
 ## 0.0.3
 
 ### Patch Changes
