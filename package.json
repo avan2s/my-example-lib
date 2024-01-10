@@ -12,7 +12,8 @@
     "test": "vitest run",
     "test:watch": "vitest --watch",
     "ci": "pnpm run lint && pnpm run test && pnpm run build",
-    "release": "pnpm run lint && pnpm run test && pnpm run build && changeset publish"
+    "release": "pnpm run lint && pnpm run test && pnpm run build && changeset publish",
+    "format:check": "pnpm prettier . --check"
   },
   "keywords": [
     "example",
@@ -28,6 +29,8 @@
   "devDependencies": {
     "@changesets/cli": "^2.27.1",
     "@types/node": "^20.10.8",
+    "eslint": "^8.56.0",
+    "prettier": "3.1.1",
     "tsup": "^8.0.1",
     "typescript": "^5.3.3",
     "vitest": "^1.1.3"
