@@ -1,6 +1,6 @@
 # build ci publish example library
 
-This example projects is based on the following video: https://www.youtube.com/watch?v=aKTSC4D1GL8&list=PLEBCKcboIbaC7NeJ_C8kXjafGoI6_RAQI&index=30&t=6028s and uses `tsup` for building the project.
+This example project shows how to deploy a library and publish it. It uses pnpm changesets and `tsup` for building the project.
 
 
 ## Steps
@@ -52,7 +52,7 @@ private: false
 ```
 13. In the created `.changeset/config.json` set `"access": "public"` for publishing these changesets
 14. In your github repo settings choose `Settings` -> Actions -> General -> workflow permissions and set it to `Read and write permissions` and check the box `Allow GitHub Actions to create and approve pull requests`
-
+15. add `.npmignore` in order just to deploy a dist folder.
 
 
 Here are additional helpful docs for this project:
@@ -62,3 +62,4 @@ Here are additional helpful docs for this project:
 - https://github.com/changesets/action?tab=readme-ov-file#custom-publishing
 - https://stackoverflow.com/questions/72376229/github-actions-is-not-permitted-to-create-or-approve-pull-requests-createpullre
 - https://docs.npmjs.com/creating-and-publishing-scoped-public-packages
+- https://www.youtube.com/watch?v=aKTSC4D1GL8&list=PLEBCKcboIbaC7NeJ_C8kXjafGoI6_RAQI&index=30&t=6028s

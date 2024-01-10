@@ -1,6 +1,6 @@
 {
   "name": "@erdbeerheld1990/my-example-lib",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "This project demonstrates an example npm library with an hello world function",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
@@ -14,9 +14,17 @@
     "ci": "pnpm run lint && pnpm run test && pnpm run build",
     "release": "pnpm run lint && pnpm run test && pnpm run build && changeset publish"
   },
-  "keywords": [],
-  "author": "andy",
+  "keywords": [
+    "example",
+    "publish"
+  ],
+  "author": "andy held",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/avan2s/my-example-lib.git"
+  },
+  "homepage": "https://github.com/avan2s/my-example-lib.git#readme",
   "devDependencies": {
     "@changesets/cli": "^2.27.1",
     "@types/node": "^20.10.8",
